@@ -1,0 +1,99 @@
+.header {
+  background-color: #e5ccabdb;
+  width: 100vw;
+  height: 120px;
+  text-align: center;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+.footer {
+  background-color: #e5ccabdb;
+  height: 90px;
+  text-align: right;
+  padding: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+h1 {
+  color: darkred;
+  text-shadow: 2px 2px 4px darkolivegreen;
+}
+h2 {
+  color: darkolivegreen;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(85, 55, 45);
+}
+.main_container {
+  background-color: #eee;
+  max-width: 1000px;
+  margin: auto;
+  padding: 16px;
+}
+div p {
+  text-align: center;
+}
+.photo_kitten {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 5px gray;
+  display: inline-block;
+  align-items: center;
+}
+.photo_kitten img {
+  width: 250px;
+  height: 250px;
+}
+.kitten {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.paragraph_list {
+  font-style: italic;
+  font-size: large;
+  text-align: left;
+}
+li {
+  font-style: italic;
+}
+ul {
+  border-left: 5px solid darkolivegreen;
+  background-color: #eee;
+  list-style-type: square;
+  padding: 10px 20px;
+}
+legend {
+  background-color: #e5ccabdb;
+  color: black;
+  padding: 5px 10px;
+  border: 3px solid darkolivegreen;
+}
+label {
+  float: left;
+  clear: left;
+  width: 93px;
+  margin: 8px;
+  text-align: center;
+}
+th,
+td {
+  border-bottom: 1px solid grey;
+  padding: 6px;
+  text-align: center;
+}
+th {
+  color: darkolivegreen;
+}
+tr:hover {
+  background-color: #e5ccabdb;
+}
+table {
+  width: 60%;
+}
